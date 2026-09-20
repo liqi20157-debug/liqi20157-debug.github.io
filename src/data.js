@@ -57,7 +57,7 @@ export const publications = [
   {
     title: "Highly selective lithium transport through crown ether pillared angstrom channels",
     authors: "Tingyan Ye<sup>#</sup>, Hongfei Gao<sup>#</sup>, <strong>Qi Li</strong><sup>#</sup>, et al.",
-    venue: "<em>Angewandte Chemie International Edition</em> 63, e202316161 (2024)",
+    venue: "<em>Angew. Chem. Int. Ed.</em> 63, e202316161 (2024). (highlighted by <em>Nature Reviews Chemistry</em>: Lithium chooses the channel. <em>Nat. Rev. Chem.</em> 8, 83 (2024).)",
     links: [{ label: "DOI", href: "https://doi.org/10.1002/anie.202316161" }],
   },
   {
@@ -166,7 +166,7 @@ export const projects = [
 export const patents = [
   {
     org: "MOF衍生的双金属氢氧化物Ni/Co-MDH的合成及应用",
-    role: "发明专利；发明人：杨武、李琪、郭昊；申请号 CN201910834592.X",
+    role: "发明专利；发明人：杨武、李琪、郭昊；授权号 CN110491682B",
   },
 ];
 
