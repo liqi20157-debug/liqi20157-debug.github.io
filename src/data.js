@@ -43,49 +43,49 @@ export const education = [
 
 export const publications = [
   {
-    title: "Covalent Organic Framework Interlayer Spacings as Perfectly Selective Artificial Proton Channels",
+    title: "Covalent Organic Framework interlayer spacings as perfectly selective artificial proton channels",
     authors: "<strong>Qi Li</strong><sup>#</sup>, Hongfei Gao<sup>#</sup>, Yongye Zhao, et al.",
     venue: "<em>Angewandte Chemie International Edition</em> 63, e202402094 (2024)",
     links: [{ label: "DOI", href: "https://doi.org/10.1002/anie.202402094" }],
   },
   {
-    title: "Artificial Sodium Channels for Enhanced Osmotic Energy Harvesting",
+    title: "Artificial sodium channels for enhanced osmotic energy harvesting",
     authors: "<strong>Qi Li</strong><sup>#</sup>, Ke Zhou<sup>#</sup>, Bin Zhu<sup>#</sup>, Xueli Liu, et al.",
     venue: "<em>Journal of the American Chemical Society</em> 145, 28038–28048 (2023). 封面论文",
     links: [{ label: "DOI", href: "https://doi.org/10.1021/jacs.3c08902" }],
   },
   {
-    title: "Highly Selective Lithium Transport through Crown Ether Pillared Angstrom Channels",
+    title: "Highly selective lithium transport through crown ether pillared angstrom channels",
     authors: "Tingyan Ye<sup>#</sup>, Hongfei Gao<sup>#</sup>, <strong>Qi Li</strong><sup>#</sup>, et al.",
     venue: "<em>Angewandte Chemie International Edition</em> 63, e202316161 (2024)",
     links: [{ label: "DOI", href: "https://doi.org/10.1002/anie.202316161" }],
   },
   {
-    title: "Self-Assembled Mo Doped Ni-MOFs Nanosheets Based Electrode Material for High Performance Battery-Supercapacitor Hybrid Device",
+    title: "Self-assembled Mo doped Ni-MOF nanosheets based electrode material for high performance battery-supercapacitor hybrid device",
     authors: "<strong>Qi Li</strong>, Hao Guo, Rui Xue, et al.",
     venue: "<em>International Journal of Hydrogen Energy</em> 45, 20820–20831 (2020)",
     links: [{ label: "DOI", href: "https://doi.org/10.1016/j.ijhydene.2020.05.143" }],
   },
   {
-    title: "A High-Performance Battery-Supercapacitor Hybrid Device Based on Bimetallic Hydroxides Nanoflowers Derived from Metal-Organic Frameworks",
+    title: "A High-Performance Battery-supercapacitor Hybrid Device based on Bimetallic Hydroxides Nanoflowers Derived from Metal-Organic Frameworks",
     authors: "<strong>Qi Li</strong>, Hao Guo, Liguo Yue, et al.",
     venue: "<em>Colloids and Surfaces A</em> 600, 124967 (2020)",
     links: [{ label: "DOI", href: "https://doi.org/10.1016/j.colsurfa.2020.124967" }],
   },
   {
-    title: "Metal-Organic Frameworks Derived N, S Co-Doped Bimetal Nanocomposite as High-Performance Electrode Materials for Supercapacitor",
+    title: "Metal-Organic Frameworks Derived N, S co-doped Bimetal Nanocomposites as High-performance Electrodes Materials for Supercapacitor",
     authors: "<strong>Qi Li</strong>, Liguo Yue, Li Li, et al.",
     venue: "<em>Journal of Alloys and Compounds</em> 810, 151961 (2019)",
     links: [{ label: "DOI", href: "https://doi.org/10.1016/j.jallcom.2019.151961" }],
   },
   {
-    title: "Versatile Heavy Metal Ion Separation via Biological Ion-Channel-Inspired Membranes",
+    title: "Versatile heavy metal ion separation via biological ion-channel-inspired membranes",
     authors: "Yongye Zhao, Hongfei Gao, Lei Yu, <strong>Qi Li</strong>, et al.",
     venue: "<em>Nature Nanotechnology</em> 21, 680–688 (2026)",
     links: [{ label: "DOI", href: "https://doi.org/10.1038/s41565-026-02147-8" }],
   },
   {
-    title: "Spontaneous Chlorine Production from Chloride-Containing Brines",
+    title: "Spontaneous chlorine production from chloride-containing brines",
     authors: "Chenguang Zhu, <strong>Qi Li</strong>, Mingchang Li, et al.",
     venue: "<em>Nature Communications</em> 17, 1433 (2026)",
     links: [{ label: "DOI", href: "https://doi.org/10.1038/s41467-025-68181-7" }],
@@ -97,13 +97,13 @@ export const publications = [
     links: [{ label: "DOI", href: "https://doi.org/10.1002/anie.202514637" }],
   },
   {
-    title: "Randomly Oriented Covalent Organic Framework Membrane for Selective Li+ Sieving from Other Ions",
+    title: "Randomly oriented covalent organic framework membrane for selective Li+ sieving from other ions",
     authors: "Shiwen Bao, Zhaoyu Ma, Lei Yu, <strong>Qi Li</strong>, et al.",
     venue: "<em>Nature Communications</em> 16, 3896 (2025)",
     links: [{ label: "DOI", href: "https://doi.org/10.1038/s41467-025-59188-1" }],
   },
   {
-    title: "Toward Scalable Nanofluidic Osmotic Power Generation from Hypersaline Water Sources with a Metal-Organic Framework Membrane",
+    title: "Toward scalable nanofluidic osmotic power generation from hypersaline water sources with a Metal-Organic Framework membrane",
     authors: "Shangfa Pan, Peng Liu, <strong>Qi Li</strong>, et al.",
     venue: "<em>Angewandte Chemie International Edition</em> 62, e202218129 (2023)",
     links: [{ label: "DOI", href: "https://doi.org/10.1002/anie.202218129" }],
@@ -137,12 +137,12 @@ export const experience = [
 
 export const projects = [
   {
-    org: "仿生 COF 膜高选择性诱导高电压的机制及其低能盐湖提锂研究",
+    org: "仿生COF膜高选择性诱导高电压的机制及其自供能盐湖提锂研究",
     role: "国家自然科学基金青年科学基金项目（C 类），主持，30 万元",
     date: "2027.01–2029.12",
   },
   {
-    org: "复杂盐湖卤水中离子选择性-膜电位耦合的锂分离机制",
+    org: "复杂盐湖卤水中离子选择性—膜电位耦合的锂分离机制",
     role: "国家资助博士后研究人员计划（C 档），主持，24 万元",
     date: "2026.06–2028.05",
   },
@@ -165,7 +165,7 @@ export const projects = [
 
 export const patents = [
   {
-    org: "MOF 衍生双金属氢氧化物 Ni/Co-MDH 的合成与应用",
+    org: "MOF衍生的双金属氢氧化物Ni/Co-MDH的合成及应用",
     role: "发明专利；发明人：杨武、李琪、郭昊；申请号 CN201910834592.X",
   },
 ];
