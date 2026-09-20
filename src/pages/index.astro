@@ -17,12 +17,13 @@ import {
   workingPapers,
   experience,
   projects,
+  patents,
   awards,
   teaching,
   lastUpdated,
 } from "../data.js";
 
-const title = [profile.nameEn, profile.nameCn].filter(Boolean).join(" ");
+const title = [profile.nameCn, profile.nameEn].filter(Boolean).join("  ");
 
 // Structured data, assembled from the same content the page renders — nothing
 // to keep in sync by hand. Institutions you list an `url` for in `education`
@@ -71,8 +72,9 @@ const jsonLd = {
       lines up with the content below. */}
   <header class="site-header">
     <h1>
-      {profile.nameEn}
       {profile.nameCn && <span class="cn">{profile.nameCn}</span>}
+      {profile.nameCn && profile.nameEn && <span aria-hidden="true">&nbsp;&nbsp;</span>}
+      {profile.nameEn}
     </h1>
   </header>
 
@@ -84,7 +86,7 @@ const jsonLd = {
     <main>
       {
         about.length > 0 && (
-          <Section id="about" title="About Me">
+          <Section id="about" title="个人简介">
             <div class="prose">
               {about.map((para) => (
                 <p set:html={para} />
@@ -96,7 +98,7 @@ const jsonLd = {
 
       {
         news.length > 0 && (
-          <Section id="news" title="News">
+          <Section id="news" title="动态">
             <NewsList items={news} />
           </Section>
         )
@@ -104,7 +106,7 @@ const jsonLd = {
 
       {
         education.length > 0 && (
-          <Section id="education" title="Education">
+          <Section id="education" title="教育背景">
             <EntryList items={education} />
           </Section>
         )
@@ -112,7 +114,8 @@ const jsonLd = {
 
       {
         publications.length > 0 && (
-          <Section id="publications" title="Publications">
+          <Section id="publications" title="代表性论文">
+            <p class="section-note muted"><sup>#</sup> 表示共同第一作者</p>
             <div class="pubs">
               {publications.map((p) => (
                 <PubItem {...p} />
@@ -124,7 +127,7 @@ const jsonLd = {
 
       {
         workingPapers.length > 0 && (
-          <Section id="working-papers" title="Working Papers">
+          <Section id="working-papers" title="在研论文">
             <div class="pubs">
               {workingPapers.map((p) => (
                 <PubItem {...p} />
@@ -136,7 +139,7 @@ const jsonLd = {
 
       {
         experience.length > 0 && (
-          <Section id="experience" title="Research Experience">
+          <Section id="experience" title="工作经历">
             <EntryList items={experience} />
           </Section>
         )
@@ -144,15 +147,23 @@ const jsonLd = {
 
       {
         projects.length > 0 && (
-          <Section id="projects" title="Projects">
+          <Section id="projects" title="科研项目">
             <EntryList items={projects} />
           </Section>
         )
       }
 
       {
+        patents.length > 0 && (
+          <Section id="patents" title="专利与成果">
+            <EntryList items={patents} />
+          </Section>
+        )
+      }
+
+      {
         awards.length > 0 && (
-          <Section id="awards" title="Awards & Grants">
+          <Section id="awards" title="荣誉与奖励">
             <EntryList items={awards} />
           </Section>
         )
@@ -160,7 +171,7 @@ const jsonLd = {
 
       {
         teaching.length > 0 && (
-          <Section id="teaching" title="Teaching">
+          <Section id="teaching" title="教学经历">
             <EntryList items={teaching} />
           </Section>
         )
@@ -168,7 +179,7 @@ const jsonLd = {
 
       {site.demoNotice && <TemplateCta repo={site.repo} />}
 
-      <footer>Last updated {lastUpdated}</footer>
+      <footer>更新于 {lastUpdated}</footer>
     </main>
   </div>
 </Base>

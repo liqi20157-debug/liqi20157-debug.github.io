@@ -10,7 +10,7 @@ import ThemeToggle from "./ThemeToggle.astro";
     <Image
       class="avatar"
       src={profile.photo}
-      alt={`Portrait of ${profile.nameEn}`}
+      alt={`${profile.nameCn || profile.nameEn}的肖像`}
       widths={[200, 400, 600]}
       sizes="(max-width: 760px) 150px, 200px"
       loading="eager"
@@ -18,7 +18,7 @@ import ThemeToggle from "./ThemeToggle.astro";
     />
   </div>
   <div>
-    <h2 class="side-name">{profile.nameEn}</h2>
+    <h2 class="side-name">{profile.nameCn || profile.nameEn}</h2>
     <p class="side-role muted">
       {
         profile.role.map((line, i) => (
@@ -43,6 +43,7 @@ import ThemeToggle from "./ThemeToggle.astro";
         </a>
       ))
     }
+    {profile.politicalStatus && <span class="muted">{profile.politicalStatus}</span>}
     {site.theme.toggle && <ThemeToggle />}
   </div>
 </aside>

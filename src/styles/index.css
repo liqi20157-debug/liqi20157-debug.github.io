@@ -12,18 +12,18 @@
 :root {
   color-scheme: light dark;
 
-  --color-bg: #f3f2f2;
-  --color-bg: light-dark(#f3f2f2, #1a1817);
-  --color-surface: #eae9e9;
-  --color-surface: light-dark(#eae9e9, #252221);
-  --color-text: #201e1d;
-  --color-text: light-dark(#201e1d, #e8e6e3);
+  --color-bg: #fbfaf8;
+  --color-bg: light-dark(#fbfaf8, #1b1718);
+  --color-surface: #f0ebe7;
+  --color-surface: light-dark(#f0ebe7, #292123);
+  --color-text: #332d2d;
+  --color-text: light-dark(#332d2d, #eee8e4);
   /* Link colour, and the brighter tone links move to on hover. In dark mode
      the pair is inverted: the resting colour is the calmer of the two. */
-  --color-link: #006786;
-  --color-link: light-dark(#006786, #58c8ea);
-  --color-accent: #0088b0;
-  --color-accent: light-dark(#0088b0, #8fdcf5);
+  --color-link: #74383e;
+  --color-link: light-dark(#74383e, #d9a5a9);
+  --color-accent: #ad8246;
+  --color-accent: light-dark(#ad8246, #e0bd82);
   /* Hairlines and rules, derived from the text colour so they track the theme */
   --color-divider: color-mix(in srgb, var(--color-text) 16%, transparent);
   --color-rule: color-mix(in srgb, var(--color-text) 25%, transparent);
@@ -31,7 +31,7 @@
   /* Source Serif 4, downloaded and self-hosted by Astro at build time.
      The variable name is set in astro.config.mjs. */
   --font-heading: var(--font-serif), Georgia, serif;
-  --font-body: var(--font-serif), Georgia, serif;
+  --font-body: var(--font-serif), "Songti SC", "SimSun", Georgia, serif;
 
   /* Font for a name in a non-Latin script, used only in the masthead.
      Default is a Chinese serif that pairs with Source Serif 4. See the README
