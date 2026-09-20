@@ -11,7 +11,7 @@ export const site = {
   // for the template's own demo; turn it off once the page is about you.
   demoNotice: false,
   // Where the template lives, linked from that bar.
-  repo: "https://github.com/liqi20157-debug/liqi20157-debug.github.io",
+  repo: "https://github.com/liqi20157/liqi20157.github.io",
 
   // ── Deployment ──────────────────────────────────────────────────────────
   // Absolute URL of the deployed site, no trailing slash. Used for canonical
@@ -19,7 +19,7 @@ export const site = {
   //   custom domain      → "https://your-domain.com"
   //   user/org GitHub Pages → "https://your-name.github.io"
   //   project GitHub Pages  → "https://your-name.github.io"  (set `base` too)
-  url: "https://liqi20157-debug.github.io",
+  url: "https://liqi20157.github.io",
 
   // Sub-path the site is served from. Leave "/" for a custom domain or a
   // <your-name>.github.io repository. For a project repository published at
